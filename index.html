@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NBA 5v5</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <h1>NBA 5v5</h1>
+
+    <button id="start-button">Start Game</button>
+
+    <div id="game-board">
+        <div id="computer-team" class="team">
+            <h2>Computer's Team</h2>
+            <div class="card" id="computer-point-guard"></div>
+            <div class="card" id="computer-shooting-guard"></div>
+            <div class="card" id="computer-small-forward"></div>
+            <div class="card" id="computer-power-forward"></div>
+            <div class="card" id="computer-center"></div>
+        </div>
+
+        <div id="player-team" class="team">
+            <h2>Your Team</h2>
+            <div class="card" id="player-point-guard"></div>
+            <div class="card" id="player-shooting-guard"></div>
+            <div class="card" id="player-small-forward"></div>
+            <div class="card" id="player-power-forward"></div>
+            <div class="card" id="player-center"></div>
+        </div>
+    </div>
+
+    <h2>Game Results</h2>
+    <p id="message"></p>
+</body>
+</html>
